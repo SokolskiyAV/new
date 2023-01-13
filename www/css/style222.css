@@ -1,0 +1,68 @@
+ body {
+    font: 11pt Arial, Helvetica, sans-serif; /* Рубленый шрифт текста */
+    margin: 5; /* Отступы на странице */
+   }
+   h1 {
+    font-size: 36px; /* Размер шрифта */
+    margin: 0; /* Убираем отступы */
+    color: #fc6; /* Цвет текста */
+   }
+   h2 {
+    margin-top: 0; /* Убираем отступ сверху */
+   }
+   .header { /* Верхний блок */
+    margin: 10px 10% 10px 10%;/*верхняя правая нижняя  левая*/
+    border:  1px solid #333; /* Параметры рамки */
+    
+    align-items: center;
+    align-self: center;
+       }
+      .container2 {
+      	background: yellow;
+      	color:  green;
+      	border: 1px solid #333;
+      	 float: left; 
+      	 width: 10%;
+      	 padding: 5px;
+      	 margin: 5px 10px 20px 192px;
+      }
+  /*.sidebar { /* Левая колонка */
+   float: left; /* Обтекание справа */
+    border: 1px solid #333; /* Параметры рамки вокруг */
+    width: 10%; /* Ширина колонки */
+    padding: 5px; /* Поля вокруг текста */
+    margin: 5px 10px 20px 192px; /* Значения отступов */
+     
+   }
+   .content { /* Правая колонка */
+    margin: 1px 1px 1px 11%; /* Значения отступов */
+    padding: 5px; /* Поля вокруг текста */
+    border: 1px solid #333; /* Параметры рамки */
+   width: auto;
+    align-self: auto;
+    align-items: auto;
+    width: auto;
+    height: auto;
+   }
+   #footer { /* Нижний блок */
+    background: #333; /* Цвет фона */
+    padding: 5px; /* Поля вокруг текста */
+    color: #fff; /* Цвет текста */
+    clear: left; /* Отменяем действие float */
+
+   }
+   .container {
+      /*	background: red; */
+      	align-self: : center;
+ }
+ .navbar-brand{
+ 	font-size: 18px;
+ 	 margin-left: 20%;
+ 	 }
+.button1  {
+	align-self: : center;
+	background: black;
+}
+#my-4 {
+   border:4px solid #333;
+}
