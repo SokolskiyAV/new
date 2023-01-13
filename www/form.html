@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html xmlns="//www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" >
+
+<title>Формы </title>
+
+    </head>
+   <body>
+<form action="formdata.php" method="GET" name="form1">
+	<fieldset>
+		<legend>Вопросы</legend>
+		<legend>Ввод личных данных</legend>
+	<p><label>Введите ваше имя <input type="text" name="name" size="36" maxlength="10"></label></p>
+	<p><label>ВВедите пароль <input type="password" name="password" size="29" maxlength="12" minlength="8" ></label></p>
+	</fieldset>
+	<fieldset></fieldset>
+	<p>Любите ли вы экономить время</p>
+
+<p  ><label>да </label><input type="radio" name="time" value="yes" checked> </label>  <label>нет </label><input type="radio" name="time" value="no"> </label></p>
+
+<p>Какими инструментами вы любите пользоваться </p>
+<p>
+	<label><input type="checkbox" name="mol" >Молоток</label>
+	<label><input type="checkbox" name="perf">Перфоратор</label>
+	<label><input type="checkbox" name="otv">Отвертка</label>
+</p>
+<p>Сколько вы спите</p>
+<p>
+	<select name="sleep" size="5" multiple > 
+	<option>5</option>
+	<option>6 </option>
+	<option value="seven ">7 </option>
+	<option selected="">8 </option>
+	<option>8+ </option>
+    </select>
+<p>
+	</fieldset>
+	<fieldset></fieldset>
+	<legend> Введите до информацию</legend>
+</p>
+<p><textarea name="textarea" cols="30" rows="6"> </textarea></p>
+<p><input type="reset" name="reset" value="Очистить"><input type="submit" name="submit" value="Отправить" ></p>
+<p> <input type="image" src="images/ibotton.png" name="imagebutton"></p>
+<p><input type="button" value="Кнопка" name="battom"></p>
+</fieldset>
+</form>
+
+
+
+
+
+
+   </body>
+   </html>
